@@ -12,6 +12,21 @@
         android:theme="@style/Theme.FitnessApp"
         tools:targetApi="31">
         <activity
+            android:name=".TrackCalories"
+            android:exported="false" />
+        <activity
+            android:name=".Recovery"
+            android:exported="false" />
+        <activity
+            android:name=".Meals"
+            android:exported="false" />
+        <activity
+            android:name=".Progress"
+            android:exported="false" />
+        <activity
+            android:name=".Workout"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
